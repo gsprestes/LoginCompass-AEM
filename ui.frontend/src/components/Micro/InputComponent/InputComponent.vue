@@ -7,32 +7,32 @@
 <script>
 import { mapActions } from 'vuex'
 export default {
-  name: "InputComponent",
+  name: 'InputComponent',
   props: {
     type: {
-      type: String,
+      type: String
     },
     classInput: {
-      type: String,
+      type: String
     },
     placeholder: {
-      type: String,
-    },
+      type: String
+    }
   },
   methods: {
-    ...mapActions(['setName','setPassword']),
-    valueInputs(e) {
-      if (this.type === "text") {
-        this.setName(e.target.value);
-      } else if (this.type === "password"){
-        this.setPassword(e.target.value);
+    ...mapActions(['setName', 'setPassword']),
+    valueInputs (e) {
+      if (this.type === 'text') {
+        this.setName(e.target.value)
+      } else if (this.type === 'password') {
+        this.setPassword(e.target.value)
       }
-    },
-    
-  },
-};
+    }
+
+  }
+}
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
 @import './InputComponent.scss';
 </style>

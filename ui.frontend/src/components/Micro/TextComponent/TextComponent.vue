@@ -1,19 +1,22 @@
 <template>
-  <p :class="className">{{ textMsg }}</p>
+  <p :style="{'font-family': fontFamily}" :class="className">{{ textMsg }}</p>
 </template>
 
 <script>
 export default {
-    name: "TextComponent",
-    props: {
-        textMsg: {
-            type: String,
-            default: ""
-        },
-        className: {
-            type: String
-        }
+  name: 'TextComponent',
+  props: {
+    textMsg: {
+      type: String,
+      default: ''
+    },
+    className: {
+      type: String
+    },
+    fontFamily: {
+      type: String
     }
+  }
 }
 </script>
 
