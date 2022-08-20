@@ -14,8 +14,8 @@
                     <className
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Classe CSS"
-                        name="./className"/>
+                        fieldLabel="placeholder"
+                        name="./placeholder"/>
                 </items>
             </column>
         </items>
