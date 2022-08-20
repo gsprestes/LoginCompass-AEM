@@ -10,6 +10,7 @@ import Main from './components/Main/Main'
 
 import TextComponent from './components/Micro/TextComponent/TextComponent'
 import InputComponent from './components/Micro/InputComponent/InputComponent'
+import ButtonComponent from './components/Micro/Button/ButtonComponent'
 
 import {
   withComponentMappingContext,
@@ -36,6 +37,8 @@ const EditConfig = {
 MapTo('vue/components/text-component')(TextComponent, EditConfig)
 
 MapTo('vue/components/input-component')(InputComponent, EditConfig)
+
+MapTo('vue/components/button-component')(ButtonComponent, EditConfig)
 
 MapTo('vue/components/customclasses')(CustomClasses, EditConfig)
 

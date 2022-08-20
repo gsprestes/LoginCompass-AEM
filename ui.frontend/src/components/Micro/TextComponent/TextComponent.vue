@@ -1,5 +1,5 @@
 <template>
-  <p :class="className">{{ textMsg }}</p>
+  <p :style="{'font-family': fontFamily}" :class="className">{{ textMsg }}</p>
 </template>
 
 <script>
