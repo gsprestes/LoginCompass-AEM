@@ -11,16 +11,16 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-                    <textMsg
+                    <titleMsg
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Classe CSS"
-                        name="./textMsg"/>
-                    <fontFamily cq-msm-lockable="./fontFamily"
+                        fieldLabel="Título"
+                        name="./titleMsg"/>
+                     <fontFamily cq-msm-lockable="./titleFont"
                             defaultValue="Space Mono"
                             fieldLabel="Escolha uma fonte:"
                             jcr:primaryType="nt:unstructured"
-                            name="./fontFamily"
+                            name="./titleFont"
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
                             value="false">
                             <items jcr:primaryType="nt:unstructured">
