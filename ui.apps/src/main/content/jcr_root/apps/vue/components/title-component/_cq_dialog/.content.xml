@@ -29,6 +29,22 @@
                                 <Arial jcr:primaryType="nt:unstructured" text="Arial" value="Arial"/>
                             </items>
                     </fontFamily>
+                    <typeTitle cq-msm-lockable="./type"
+                            defaultValue="Space Mono"
+                            fieldLabel="Escolha um título:"
+                            jcr:primaryType="nt:unstructured"
+                            name="./type"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                            value="false">
+                            <items jcr:primaryType="nt:unstructured">
+                                <h1 jcr:primaryType="nt:unstructured" text="h1" value="h1"/>
+                                <h2 jcr:primaryType="nt:unstructured" text="h2" value="h2"/>
+                                <h3 jcr:primaryType="nt:unstructured" text="h3" value="h3"/>
+                                <h4 jcr:primaryType="nt:unstructured" text="h4" value="h4"/>
+                                <h5 jcr:primaryType="nt:unstructured" text="h5" value="h5"/>
+                                <h6 jcr:primaryType="nt:unstructured" text="h6" value="h6"/>
+                            </items>
+                    </typeTitle>
                 </items>
             </column>
         </items>
