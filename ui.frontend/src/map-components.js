@@ -12,6 +12,7 @@ import TextComponent from './components/Micro/TextComponent/TextComponent'
 import InputComponent from './components/Micro/InputComponent/InputComponent'
 import ButtonComponent from './components/Micro/Button/ButtonComponent'
 import TitleComponent from './components/Components2/TitleComponent/TitleComponent'
+import ClockComponent from './components/Components2/ClockComponent/ClockComponent'
 
 import {
   withComponentMappingContext,
@@ -42,6 +43,8 @@ MapTo('vue/components/input-component')(InputComponent, EditConfig)
 MapTo('vue/components/button-component')(ButtonComponent, EditConfig)
 
 MapTo('vue/components/title-component')(TitleComponent, EditConfig)
+
+MapTo('vue/components/clock-component')(ClockComponent, EditConfig)
 
 // ------------------------------------------------------------
 
